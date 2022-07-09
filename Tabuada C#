@@ -6,7 +6,7 @@ public class Tabuada
     {
         int valor = 10; 
         
-        Console.WriteLine("Informa o Numero da Tabuada");
+        Console.WriteLine("Informe o Numero da Tabuada");
         
         int N = Convert.ToInt32(Console.ReadLine());
         
