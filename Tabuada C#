@@ -1,3 +1,4 @@
+
 using System;
 
 public class Tabuada
@@ -6,7 +7,7 @@ public class Tabuada
     {
         int valor = 10; 
         int mult;
-		int sub;
+		float sub;
         Console.WriteLine("Informa o Numero da Tabuada");
         int N = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Qual Operação você quer?");
@@ -51,9 +52,10 @@ public class Tabuada
 				
 				  for (int i=1; i <= valor; i++){
         
-             sub = N  / i;
+             sub = i  / N;
+					  
             
-            Console.WriteLine(i + " / " + N + " = " + sub );
+            Console.WriteLine( i + " / " + N + " = " + sub);
 				  }
        break;
         }
