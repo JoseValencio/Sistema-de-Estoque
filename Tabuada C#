@@ -17,42 +17,43 @@ public class Tabuada
        
         switch(operacao){
 				
-			case "+": 
+		  case "+": 
 				
-                    for (int i=1; i <= valor; i++){
+                  for (int i=1; i <= valor; i++){
         
-                    Result = i + N;
+                  Result = i + N;
             
-            Console.WriteLine(i + " + " + N + " = " + Result );
+                  Console.WriteLine(i + " + " + N + " = " + Result );
 		
         
         }
-		break;
-					case "-": 
-                    for (int i=1; i <= valor; i++){
+	break;
+		 case "-": 
+		 
+                 for (int i=1; i <= valor; i++){
         
-                     Result = N - i;
+                 Result = N - i;
             
-            Console.WriteLine(i + " - " + N + " = " + Result );
+                 Console.WriteLine(i + " - " + N + " = " + Result );
 		
         
         }
-		break;
-			      case "*":
+	break;
+		case "*":
 				
-				  for (int i=1; i <= valor; i++){
+		for (int i=1; i <= valor; i++){
         
-                   Result = N * i;
+                Result = N * i;
             
-			Console.WriteLine(i + " * " + N + " = " + Result );
+		Console.WriteLine(i + " * " + N + " = " + Result );
 				  }
         break;
         
-			      case "/":
+		 case "/":
 				
-				  for (int i=1; i <= valor; i++){
+		 for (int i=1; i <= valor; i++){
         
-                  Result = i / N;
+                 Result = i / N;
 					  
             
             Console.WriteLine( i + " / " + N + " = " +  Result);
