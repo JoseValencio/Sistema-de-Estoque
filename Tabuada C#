@@ -1,4 +1,5 @@
-Programa que mostra a tuabua, onde o usuario informa o numero e qual operação quer.
+Programa que mostra a tabuada, onde o usuario informa o numero e qual operação quer.
+
 using System;
 
 public class Tabuada
