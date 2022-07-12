@@ -56,7 +56,7 @@ public class Tabuada
                  Result = i / N;
 					  
             
-            Console.WriteLine( i + " / " + N + " = " +  Result);
+                 Console.WriteLine( i + " / " + N + " = " +  Result);
 				  }
        break;
         }
