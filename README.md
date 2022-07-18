@@ -1,8 +1,8 @@
 
 - 👋 Hi, I’m @JoseValencio
 - 👀 I’m interested in Programação .NET C#...
-- 🌱 I’m currently learning  C#, Logica de Programação
-- 💞️ I’m looking to collaborate em projetos em .NET C#
+- 🌱 I’m currently learning  C#, PHP, Logica de Programação
+- 💞️ I’m looking to collaborate em projetos em .NET C#, PHP
 - 📫 How to reach me  valencio.santos@hotmail.com
 
 <!---
