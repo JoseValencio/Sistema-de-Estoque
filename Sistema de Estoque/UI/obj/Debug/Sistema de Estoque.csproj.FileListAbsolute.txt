@@ -1,0 +1,10 @@
+C:\Users\valen\source\repos\Sistema de Estoque\Sistema de Estoque\bin\Debug\Sistema de Estoque.exe.config
+C:\Users\valen\source\repos\Sistema de Estoque\Sistema de Estoque\bin\Debug\Sistema de Estoque.exe
+C:\Users\valen\source\repos\Sistema de Estoque\Sistema de Estoque\bin\Debug\Sistema de Estoque.pdb
+C:\Users\valen\source\repos\Sistema de Estoque\Sistema de Estoque\obj\Debug\Sistema de Estoque.csproj.AssemblyReference.cache
+C:\Users\valen\source\repos\Sistema de Estoque\Sistema de Estoque\obj\Debug\Sistema de Estoque.csproj.SuggestedBindingRedirects.cache
+C:\Users\valen\source\repos\Sistema de Estoque\Sistema de Estoque\obj\Debug\Sistema_de_Estoque.Properties.Resources.resources
+C:\Users\valen\source\repos\Sistema de Estoque\Sistema de Estoque\obj\Debug\Sistema de Estoque.csproj.GenerateResource.cache
+C:\Users\valen\source\repos\Sistema de Estoque\Sistema de Estoque\obj\Debug\Sistema de Estoque.csproj.CoreCompileInputs.cache
+C:\Users\valen\source\repos\Sistema de Estoque\Sistema de Estoque\obj\Debug\Sistema de Estoque.exe
+C:\Users\valen\source\repos\Sistema de Estoque\Sistema de Estoque\obj\Debug\Sistema de Estoque.pdb
