@@ -8,3 +8,13 @@ C:\Users\valen\source\repos\Sistema de Estoque\Database\obj\Debug\Database.cspro
 C:\Users\valen\source\repos\Sistema de Estoque\Database\obj\Debug\Database.csproj.CopyComplete
 C:\Users\valen\source\repos\Sistema de Estoque\Database\obj\Debug\Database.dll
 C:\Users\valen\source\repos\Sistema de Estoque\Database\obj\Debug\Database.pdb
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\bin\Debug\Database.dll
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\bin\Debug\Database.pdb
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\obj\Debug\Database.csproj.AssemblyReference.cache
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\obj\Debug\Database.csproj.CoreCompileInputs.cache
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\obj\Debug\Database.csproj.CopyComplete
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\obj\Debug\Database.dll
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\obj\Debug\Database.pdb
