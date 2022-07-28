@@ -22,3 +22,5 @@ C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Busine
 C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Business\obj\Debug\Business.csproj.CopyComplete
 C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Business\obj\Debug\Business.dll
 C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Business\obj\Debug\Business.pdb
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Business\bin\Debug\ConexaoBanco.cs
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Business\bin\Debug\Business.dll.config

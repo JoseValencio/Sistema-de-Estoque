@@ -18,3 +18,4 @@ C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Databa
 C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\obj\Debug\Database.csproj.CopyComplete
 C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\obj\Debug\Database.dll
 C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\obj\Debug\Database.pdb
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\Database\bin\Debug\ConexaoBanco.cs

@@ -11,12 +11,13 @@ namespace Sistema_de_Estoque
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
-        [STAThread]
+        [STAThread] 
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CadastroCliente());
+            Application.Run(new cadastroCliente());
+           
         }
     }
 }

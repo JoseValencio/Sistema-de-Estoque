@@ -13,33 +13,35 @@ using Database;
 
 namespace Business
 {
-     public class Pessoa
+    public class Pessoa
     {
 
-       
+
         //Comando Sql
         ConexaoBanco conexao = new ConexaoBanco();
         SqlCommand cmd = new SqlCommand();
-       public string message = " ";
+        public string message;
 
 
         //Construtor da classe.
-        public Pessoa(string nome, string cpf,  string dataCadastro, string dataNascimento,
-            string observacao )
+        public Pessoa(string nome, string cpf, string rg, string dataCadastro, string dataNascimento,
+        string observacao)
+       
         {
 
 
-            cmd.CommandText = "insert into Pessoa(Nome, CPF, Observacao, Data_Cadastro, Data_Nascimento " +
-                    ") values (@nome,  @cpf, @Data_Nascimento, @Data_Cadastro, @observacao )";
+            cmd.CommandText = "insert into cadastroPessoa (nome, cpf, Rg, Data_Nascimento , Data_Cadastro, Observacao) values (@nome,  @cpf, @rg, @Data_Nascimento, @Data_Cadastro, @Observacao)";
 
+            
             //parametros
+
             cmd.Parameters.AddWithValue("@nome", nome);
-          // cmd.Parameters.AddWithValue("@rg", rg);
+            cmd.Parameters.AddWithValue("@rg",  rg);
             cmd.Parameters.AddWithValue("@cpf", cpf);
             cmd.Parameters.AddWithValue("@data_Nascimento", dataNascimento);
             cmd.Parameters.AddWithValue("@data_cadastro", dataCadastro);
             cmd.Parameters.AddWithValue("@observacao", observacao);
-            
+
 
 
             //Conexão com o Banco
@@ -56,19 +58,21 @@ namespace Business
                 // mensgem de sucesso.
 
                 this.message = "Cadastro realizado!";
+                
             }
-            catch (SqlException erro )
+            catch (SqlException erro)
             {
                 this.message = "Erro ao conectar com o banco" + erro;
             }
 
-       
 
-      
+
+
 
 
         }
 
-     }
+    }
 }
+
 
