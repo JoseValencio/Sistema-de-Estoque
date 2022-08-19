@@ -20,8 +20,11 @@ namespace Sistema_de_Estoque
 
         private void gravar_Dados(object sender, EventArgs e)
         {
-            Pessoa cad = new Pessoa(txtNome.Text, mTCPF.Text, mTRG.Text, mTdataCadastro.Text, mTdataNascimento.Text, txtObservacao.Text);
-            MessageBox.Show(cad.message);
+            Pessoa cadastroPessoa = new Pessoa(txtNome.Text, mTCPF.Text, mTRG.Text, mTdataCadastro.Text, mTdataNascimento.Text, txtObservacao.Text);
+            Contato cadastroContato = new Contato(mTCelular.Text, txtEmail.Text, mTTelefone.Text, mTContato.Text);
+            Endereco cadastroEndereco = new Endereco(txtEndereco.Text, txtBairro.Text, txtCidade.Text, cbEstado.Text, mTCEP.Text);
+            MessageBox.Show(cadastroContato.message);
+
             txtNome.Text = " ";
             mTCPF.Text = " ";
             mTRG.Text = " ";
@@ -31,6 +34,10 @@ namespace Sistema_de_Estoque
 
         }
 
-      
+        private void cbEstado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+            
+        }
     }
 }

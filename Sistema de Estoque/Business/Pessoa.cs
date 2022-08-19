@@ -17,7 +17,7 @@ namespace Business
     {
 
 
-        //Comando Sql
+        
         ConexaoBanco conexao = new ConexaoBanco();
         SqlCommand cmd = new SqlCommand();
         public string message;
@@ -42,7 +42,9 @@ namespace Business
             cmd.Parameters.AddWithValue("@data_cadastro", dataCadastro);
             cmd.Parameters.AddWithValue("@observacao", observacao);
 
+           // cmd.CommandText = "SELECT nome, FROM cadastroPessoa";
 
+            //cmd.Parameters.AddWithValue("@nome", nome);
 
             //Conexão com o Banco
 
@@ -71,7 +73,7 @@ namespace Business
 
 
         }
-
+        
     }
 }
 

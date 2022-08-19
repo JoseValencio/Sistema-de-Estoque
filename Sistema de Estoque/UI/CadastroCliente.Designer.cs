@@ -36,33 +36,33 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cBPessoa = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.mTdataNascimento = new System.Windows.Forms.MaskedTextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
+            this.mTContato = new System.Windows.Forms.MaskedTextBox();
             this.mTdataCadastro = new System.Windows.Forms.MaskedTextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
+            this.mTCEP = new System.Windows.Forms.MaskedTextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtEndereco = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtBairro = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtCidade = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cbEstado = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.mTRG = new System.Windows.Forms.MaskedTextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.maskedTextBox7 = new System.Windows.Forms.MaskedTextBox();
+            this.mTTelefone = new System.Windows.Forms.MaskedTextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.maskedTextBox8 = new System.Windows.Forms.MaskedTextBox();
+            this.mTCelular = new System.Windows.Forms.MaskedTextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -139,13 +139,16 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Pessoa.:";
             // 
-            // comboBox1
+            // cBPessoa
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(101, 33);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(107, 21);
-            this.comboBox1.TabIndex = 8;
+            this.cBPessoa.FormattingEnabled = true;
+            this.cBPessoa.Items.AddRange(new object[] {
+            "Física",
+            "Júridica"});
+            this.cBPessoa.Location = new System.Drawing.Point(101, 33);
+            this.cBPessoa.Name = "cBPessoa";
+            this.cBPessoa.Size = new System.Drawing.Size(107, 21);
+            this.cBPessoa.TabIndex = 8;
             // 
             // label5
             // 
@@ -184,14 +187,14 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "Contato.:";
             // 
-            // maskedTextBox3
+            // mTContato
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(434, 87);
-            this.maskedTextBox3.Mask = "(00) 0 0000-0000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(120, 20);
-            this.maskedTextBox3.TabIndex = 14;
-            this.maskedTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.mTContato.Location = new System.Drawing.Point(434, 87);
+            this.mTContato.Mask = "(00) 0 0000-0000";
+            this.mTContato.Name = "mTContato";
+            this.mTContato.Size = new System.Drawing.Size(120, 20);
+            this.mTContato.TabIndex = 14;
+            this.mTContato.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // mTdataCadastro
             // 
@@ -212,14 +215,14 @@
             this.label8.TabIndex = 16;
             this.label8.Text = "CEP.:";
             // 
-            // maskedTextBox4
+            // mTCEP
             // 
-            this.maskedTextBox4.Location = new System.Drawing.Point(15, 149);
-            this.maskedTextBox4.Mask = "00000-9999";
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(113, 20);
-            this.maskedTextBox4.TabIndex = 17;
-            this.maskedTextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.mTCEP.Location = new System.Drawing.Point(15, 149);
+            this.mTCEP.Mask = "00000-9999";
+            this.mTCEP.Name = "mTCEP";
+            this.mTCEP.Size = new System.Drawing.Size(113, 20);
+            this.mTCEP.TabIndex = 17;
+            this.mTCEP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label9
             // 
@@ -230,12 +233,12 @@
             this.label9.TabIndex = 18;
             this.label9.Text = "Endereço.:";
             // 
-            // textBox2
+            // txtEndereco
             // 
-            this.textBox2.Location = new System.Drawing.Point(149, 149);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(403, 20);
-            this.textBox2.TabIndex = 19;
+            this.txtEndereco.Location = new System.Drawing.Point(149, 149);
+            this.txtEndereco.Name = "txtEndereco";
+            this.txtEndereco.Size = new System.Drawing.Size(403, 20);
+            this.txtEndereco.TabIndex = 19;
             // 
             // label10
             // 
@@ -246,12 +249,12 @@
             this.label10.TabIndex = 20;
             this.label10.Text = "Bairro.:";
             // 
-            // textBox3
+            // txtBairro
             // 
-            this.textBox3.Location = new System.Drawing.Point(15, 215);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(113, 20);
-            this.textBox3.TabIndex = 21;
+            this.txtBairro.Location = new System.Drawing.Point(15, 215);
+            this.txtBairro.Name = "txtBairro";
+            this.txtBairro.Size = new System.Drawing.Size(113, 20);
+            this.txtBairro.TabIndex = 21;
             // 
             // label11
             // 
@@ -262,12 +265,12 @@
             this.label11.TabIndex = 22;
             this.label11.Text = "Cidade.:";
             // 
-            // textBox4
+            // txtCidade
             // 
-            this.textBox4.Location = new System.Drawing.Point(149, 215);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(188, 20);
-            this.textBox4.TabIndex = 23;
+            this.txtCidade.Location = new System.Drawing.Point(149, 215);
+            this.txtCidade.Name = "txtCidade";
+            this.txtCidade.Size = new System.Drawing.Size(188, 20);
+            this.txtCidade.TabIndex = 23;
             // 
             // label12
             // 
@@ -278,13 +281,42 @@
             this.label12.TabIndex = 24;
             this.label12.Text = "Estado.:";
             // 
-            // comboBox2
+            // cbEstado
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(365, 215);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(107, 21);
-            this.comboBox2.TabIndex = 25;
+            this.cbEstado.FormattingEnabled = true;
+            this.cbEstado.Items.AddRange(new object[] {
+            "Acre ",
+            "Alagoas ",
+            "Amapá ",
+            "Amazonas ",
+            "Bahia ",
+            "Ceará ",
+            "Distrito Federal ",
+            "Espírito Santo ",
+            "Goiás ",
+            "Maranhão ",
+            "Mato Grosso ",
+            "Mato Grosso do Sul ",
+            "Minas Gerais ",
+            "Pará ",
+            "Paraíba ",
+            "Paraná ",
+            "Pernambuco ",
+            "Piauí ",
+            "Rio de Janeiro ",
+            "Rio Grande do Norte ",
+            "Rio Grande do Sul ",
+            "Rondônia ",
+            "Roraima ",
+            "Santa Catarina ",
+            "São Paulo",
+            "Sergipe ",
+            "Tocantins "});
+            this.cbEstado.Location = new System.Drawing.Point(365, 215);
+            this.cbEstado.Name = "cbEstado";
+            this.cbEstado.Size = new System.Drawing.Size(107, 21);
+            this.cbEstado.TabIndex = 25;
+            this.cbEstado.SelectedIndexChanged += new System.EventHandler(this.cbEstado_SelectedIndexChanged);
             // 
             // label13
             // 
@@ -331,14 +363,14 @@
             this.label15.TabIndex = 30;
             this.label15.Text = "Telefone.:";
             // 
-            // maskedTextBox7
+            // mTTelefone
             // 
-            this.maskedTextBox7.Location = new System.Drawing.Point(15, 335);
-            this.maskedTextBox7.Mask = "(00) 0 0000-0000";
-            this.maskedTextBox7.Name = "maskedTextBox7";
-            this.maskedTextBox7.Size = new System.Drawing.Size(131, 20);
-            this.maskedTextBox7.TabIndex = 31;
-            this.maskedTextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.mTTelefone.Location = new System.Drawing.Point(15, 335);
+            this.mTTelefone.Mask = "(00) 0 0000-0000";
+            this.mTTelefone.Name = "mTTelefone";
+            this.mTTelefone.Size = new System.Drawing.Size(131, 20);
+            this.mTTelefone.TabIndex = 31;
+            this.mTTelefone.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label16
             // 
@@ -349,14 +381,14 @@
             this.label16.TabIndex = 32;
             this.label16.Text = "Celular.:";
             // 
-            // maskedTextBox8
+            // mTCelular
             // 
-            this.maskedTextBox8.Location = new System.Drawing.Point(168, 335);
-            this.maskedTextBox8.Mask = "(00) 0 0000-0000";
-            this.maskedTextBox8.Name = "maskedTextBox8";
-            this.maskedTextBox8.Size = new System.Drawing.Size(131, 20);
-            this.maskedTextBox8.TabIndex = 33;
-            this.maskedTextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.mTCelular.Location = new System.Drawing.Point(168, 335);
+            this.mTCelular.Mask = "(00) 0 0000-0000";
+            this.mTCelular.Name = "mTCelular";
+            this.mTCelular.Size = new System.Drawing.Size(131, 20);
+            this.mTCelular.TabIndex = 33;
+            this.mTCelular.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label17
             // 
@@ -367,12 +399,12 @@
             this.label17.TabIndex = 34;
             this.label17.Text = "Email.:";
             // 
-            // textBox5
+            // txtEmail
             // 
-            this.textBox5.Location = new System.Drawing.Point(329, 335);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(223, 20);
-            this.textBox5.TabIndex = 35;
+            this.txtEmail.Location = new System.Drawing.Point(329, 335);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(223, 20);
+            this.txtEmail.TabIndex = 35;
             // 
             // label18
             // 
@@ -428,33 +460,33 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.maskedTextBox8);
+            this.Controls.Add(this.mTCelular);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.maskedTextBox7);
+            this.Controls.Add(this.mTTelefone);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.maskedTextBox6);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.mTRG);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtCidade);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtBairro);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtEndereco);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.maskedTextBox4);
+            this.Controls.Add(this.mTCEP);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.mTdataCadastro);
-            this.Controls.Add(this.maskedTextBox3);
+            this.Controls.Add(this.mTContato);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.mTdataNascimento);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cBPessoa);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
@@ -480,33 +512,33 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cBPessoa;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.MaskedTextBox mTdataNascimento;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
+        private System.Windows.Forms.MaskedTextBox mTContato;
         private System.Windows.Forms.MaskedTextBox mTdataCadastro;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
+        private System.Windows.Forms.MaskedTextBox mTCEP;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtEndereco;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtBairro;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtCidade;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cbEstado;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.MaskedTextBox mTRG;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.MaskedTextBox maskedTextBox6;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox7;
+        private System.Windows.Forms.MaskedTextBox mTTelefone;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox8;
+        private System.Windows.Forms.MaskedTextBox mTCelular;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;

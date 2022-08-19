@@ -52,10 +52,19 @@
     <Compile Include="cadastroCliente.Designer.cs">
       <DependentUpon>cadastroCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="consultaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaCliente.Designer.cs">
+      <DependentUpon>consultaCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="cadastroCliente.resx">
       <DependentUpon>cadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaCliente.resx">
+      <DependentUpon>consultaCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -83,6 +92,10 @@
     <ProjectReference Include="..\Business\Business.csproj">
       <Project>{6CE1743E-7CE8-461C-9AC3-C8C10D7CAEDB}</Project>
       <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Database\Database.csproj">
+      <Project>{BECE66E2-6129-4D90-B7BE-7A6EAAF1D532}</Project>
+      <Name>Database</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

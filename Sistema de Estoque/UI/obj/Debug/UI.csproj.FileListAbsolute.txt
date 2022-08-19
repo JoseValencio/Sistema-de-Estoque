@@ -43,3 +43,4 @@ C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\UI\obj
 C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\UI\bin\Debug\ConexaoBanco.cs
 C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\UI\bin\Debug\Business.dll.config
 C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\UI\obj\Debug\Sistema_de_Estoque.cadastroCliente.resources
+C:\Users\valen\OneDrive\Área de Trabalho\JoseValencio\Sistema de Estoque\UI\obj\Debug\Sistema_de_Estoque.ConsultaCliente.resources
