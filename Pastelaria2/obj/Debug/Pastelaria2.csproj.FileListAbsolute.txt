@@ -1,0 +1,16 @@
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\bin\Debug\Pastelaria2.exe.config
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\bin\Debug\Pastelaria2.exe
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\bin\Debug\Pastelaria2.pdb
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\bin\Debug\EntityFramework.dll
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\bin\Debug\EntityFramework.xml
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\obj\Debug\Pastelaria2.csproj.AssemblyReference.cache
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\obj\Debug\Pastelaria2.csproj.SuggestedBindingRedirects.cache
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\obj\Debug\Pastelaria2.csproj.CoreCompileInputs.cache
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\obj\Debug\Pastelaria2.csproj.CopyComplete
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\obj\Debug\Pastelaria2.exe
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\obj\Debug\Pastelaria2.pdb
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\obj\Debug\Pastelaria2.Migrations.createPastel.resources
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\obj\Debug\Pastelaria2.csproj.GenerateResource.cache
+C:\Users\valen\source\repos\Pastelaria2\Pastelaria2\obj\Debug\Pastelaria2.Migrations.Hamburger.resources
